@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.mainpage{
+    height: fit-content;
+    width: 100vw;
+    background-color: black;
+    /* overflow: hidden; */
+}
+.page1{
+    /* height: 100vh; */
+    width: 100vw;
+    /* background-color: black; */
+    background-image: url("abstract-background-colorful-gradient_677411-3365.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page1 header{
+    /* height: 10vh; */
+    width: 100vw;
+    background-color: black;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.page1 header nav{
+    display: flex;
+    gap: 3vw;
+}
+.page1 header nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgray;
+}
+.page1 header button{
+    background-color: rgb(71, 61, 254);
+    padding: 1.5vh 2vw;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
+.page1 header i{
+    font-size: 24px;
+    color: white;
+    display: none;
+}
+.page1 main .tag{
+    height: 12vh;
+    width: 12vh;
+    background-image: url("cta.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: 2%;
+    
+
+}
+.page1 main{
+    padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 6vh;
+}
+.page1 main .up h1{
+    font-size: 5vmax;
+}
+.page1 main .up{
+    width: 90%;
+    /* background-color: brown; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    color: white;
+    /* padding: 0 8vw; */
+}
+.page1 main h1 span{
+    color: rgb(71, 61, 254);
+}
+.page1 main .up p{
+    /* color: lightgray; */
+    width: 70vw;
+}
+.page1 main .image{
+    width: 85vw;
+    height: 35vmax;
+    background-image: url(unsplash_rMILC1PIwM0.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1 main .image i{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3vh;
+    background-color: rgb(71, 61, 254);
+    color: white;
+}
+.page1 footer{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    width: 100vw;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 4vh 5vw;
+    /* background-color: black; */
+
+}
+.page1 footer h2{
+    font-size: 4vh;
+    color: lightgray;
+}
+.page1 footer h1 p{
+    font-size: 20px;
+    color: lightgray;
+}
+.page1 footer nav{
+    display: flex;
+    gap: 7vh;
+}
+.page1 footer h1 span{
+    color: rgb(71, 61, 254);
+}
+.page1 footer h1{
+    font-size: 5vh;
+    font-weight: 700;
+}
+.page2{
+    /* width: 100vw;
+    height: fit-content;
+    background-color: aquamarine;
+    display: flex;
+    padding: 5vh 0; 
+    position: relative;
+    color: white;
+    justify-content: space-between; */
+    /* height: 100vh; */
+    width: 100vw;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.page2 p{
+    color: lightgray;
+}
+.page2 header button{
+    background-color: rgb(71, 61, 254);
+    padding: 1.5vh 0vw;
+    width: 20vh;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+
+}
+.page2 header{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vh 3vh;
+    /* background-color: brown; */
+    justify-content: center;
+    color: white;
+}
+/* .page2 header h1{ */
+    font-size: 4vmax;
+}
+.page2 main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page2 main .boxes{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.page2 main .box{
+    /* height: 30vmax; */
+    /* background-color: blue; */
+    width: 50vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 3vh 1vh;
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 3px black;
+    color: white;
+}
+.page2 main .box:hover{
+    background-color: rgb(71, 61, 254);
+}
+.page2 main .box i{
+    height: 5.5vh;
+    width: 5.5vh;
+    background-color: rgba(196, 193, 193, 0.423);
+    border-radius: 50%;
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* page3 */
+.page3{
+    width: 100vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 6vh 0;
+}
+.page3 main{
+    /* background-color: blueviolet; */
+}
+.page3 main .box{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 7vw;
+}
+.page3 main .box .image{
+    width: 85vw;
+    height: 35vmax;
+    background-image: url("unsplash_rMILC1PIwM0\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.page3 main .box .image p{
+    height: 8vh;
+    width: 8vh;
+    background-color: rgb(71, 61, 254);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vh;
+    display: none;
+}
+.page3 main .box .image:hover p{
+    display: flex;
+}
+.page3 h1{
+    font-size: 5vmax;
+    color: white;
+}
+.page3 main .box h1{
+    font-size: 5vmax;
+    color: white;
+}
+.page3 main .box p{
+    color: rgb(71, 61, 254);
+    font-weight: 600;
+    font-size: 5vmin;
+}
+.page3 button{
+    padding: 1vh 0;
+    width: 25vmin;
+    color: white;
+    background-color: rgb(71, 61, 254);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 40%;
+    font-size: 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+
+
+/* page4  */
+.page4{
+    height: fit-content;
+    width: 100vw;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vh 5vw;
+    border-top: 1px solid lightgray;
+}
+.page4 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.page4 header h1{
+    font-size: 4vmax;
+    font-weight: 700;
+    width: 50vw;
+    color: white;
+    
+}
+.page4 header button{
+    padding: 0 3vw;
+    height: 4.5vmax;
+    /* width: 20vmin; */
+    color: white;
+    background-color: rgb(71, 61, 254);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    /* margin-left: 40%; */
+    font-size: 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.page4 main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page4 main .box{
+    height: fit-content;
+    width: 45vmax;
+    /* background-color: blueviolet; */
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border: 1px solid lightgray;
+}
+.page4 main .box img{
+    width: 100%;
+}
+.page4 main .box h2{
+    font-size: 2vmax;
+    color: white;
+}
+.page4 main .box p a{
+    color: white;
+
+}
+.page4 main .box p{
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.page5{
+    /* height: 100vh; */
+    width: 100vw;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+}
+.page5 main{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 10vw 8vw;
+    gap: 5vh;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.page5 main h1{
+    font-size: 6vmax;
+    color: white;
+}
+.page5 main h1 p{
+    font-size: 2vmax;
+    color: lightgray;
+    width: 60vw;
+}
+.page5 main button{
+    height: 15vh;
+    width: 15vh;
+    color: white;
+    background-color: rgb(71, 61, 254);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 3vh;
+    box-shadow: -1px 1px 10px rgba(255, 255, 255, 0.601);
+}
+.page5 footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    border-top: 1px solid lightgray;
+}
+.page5 footer h3{
+    font-size: 1.5vmax;
+    color: white;
+}
+.page5 footer nav{
+    display: flex;
+    gap: 1.5vw;
+    color: white;
+}
+.page5 footer nav i{
+    font-size: 2.5vmax;
+
+}

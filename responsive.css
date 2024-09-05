@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px){
+    .page1 header nav{
+        display: none;
+    }
+    .page1 header button{
+        display: none;
+    }
+    .page1 header i{
+        display: block;
+    }
+    .page1 main .image{
+        width: 95vw;
+    }
+    .page1 footer h1 p{
+        font-size: 3vw;
+    }
+    .page1 main .up{
+        width: 97vw;
+    }
+     .page3 main .box .image{
+        width: 95vw;
+     }
+     .page3 main .box{
+        padding: 3vh 2.5vw;
+     }
+     .page5 main{
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .page5 main h1 p{
+        width: 80vw;
+     }
+}
+@media screen and (max-width: 1100px){
+    .page2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
